@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+}
+
+aside{
+    font-size: 24px;
+    background-color: #1CD1B0;
+    text-align: left;
+    padding-left: 34px;
+
+}
+
+h1{
+    font-size: 36px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    background-color: #00669F;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+    padding-left: 20px;
+
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.login-block{
+    margin: auto;
+    width: 620px;
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
+    margin-bottom: 300px;
+}
+
+h2{
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+input{
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%; 
+    padding-left: 3%;
+    margin-bottom: 6%;
+}
+
+button{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 2%;
+    border-radius: 23.01px;
+    background-color: #1CD1B0;
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+}
+
+footer{
+    background-color: #00669f;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    font-size: 20px;
+}
+
+.github{
+    width: 124px;
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+
+}
+
+.registro{
+    margin: 0px;
+    text-align: center;
+    font-weight: 400;
+}
