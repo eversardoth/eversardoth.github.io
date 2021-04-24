@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/addsuper.css">
+    <title>Añadir SuperHeroe</title>
+</head>
+
+<body>
+
+    <aside>20% de descuento en todos los productos</aside>
+
+    <h1><img class="logo" src="./img/logotienda.png" alt="logotienda"> Card Super Heroes</h1>
+    <menu>
+        <a href="">Contacto</a>
+        <a href="./registro.html">Registrarme</a>
+        <a href="./login.html">Ingresar</a>
+    </menu>
+
+    <section class="add-form">
+        <h2>Añadí tu super!</h2>
+        <p>Agregá tu personaje favorito completando las opciones</p>
+
+        <form action="">
+
+            <div class="form-section1">
+                <label for="nombre">*Nombre</label>
+                <input class="text-input" type="text" name="nombre" id="nombre" required>
+
+                <label for="fecha">Fecha</label>
+                <input class="date-input" type="date" id="fecha" name="fecha">
+
+                <textarea class="textarea" name="descripcion" placeholder="Descripción"></textarea>
+
+            </div>
+
+            <div class="form-section2">
+                <label for="especie">*Especie</label>
+                <select class="select" name="especie" id="especie" required>
+                    <option value="" disabled selected hidden>Especie</option>
+                    <option value="1">Humano</option>
+                    <option value="2">Alien</option>
+                    <option value="3">Metahumano</option>
+                </select>
+
+                <label for="foto">Agregar Foto</label>
+                <input class="file-input" type="file" name="foto" id="foto">
+
+
+                <label for="">Poderes</label>
+
+                <label class="checkbox"><input type="checkbox" value="1" name="superpoder"> Volar</label>
+                <label class="checkbox"><input type="checkbox" value="2" name="superpoder"> Superinteligencia</label>
+                <label class="checkbox"><input type="checkbox" value="3" name="superpoder"> Vista de rayo láser</label>
+                <label class="checkbox"><input type="checkbox" value="4" name="superpoder"> Billetera gorda</label>
+
+                <hr class="solid">
+                
+                <label for="">Tipo de personaje</label>
+
+                <label class="radiob">
+
+                    <input type="radio" value="2" name="tipoPersonaje"> Héroe / Heroina
+
+                </label>
+
+                <label class="radiob">
+
+                    <input type="radio" value="2" name="tipoPersonaje"> Villano / Villana
+
+                </label>
+            
+
+            </div>
+
+            <div class="añadir-button">
+                <button type="submit">Añadir</button>
+            </div>
+
+
+
+
+
+        </form>
+    </section>
+
+    <footer>Todos los derechos reservados a Front End 1 <img class='github' src="./img/github.png" alt="Github Logo">
+    </footer>
+
+</body>
+
+</html>
